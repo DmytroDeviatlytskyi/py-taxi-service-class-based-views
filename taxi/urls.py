@@ -12,7 +12,7 @@ app_name = "taxi"
 urlpatterns = [
     path("", index, name="index"),
     path(
-        "manufacturer",
+        "manufacturer/",
         ManufacturerListView.as_view(),
         name="manufacturer-list"
     ),
